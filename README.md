@@ -26,7 +26,7 @@
 
 ## Usage
 
-- (Recommended) Create an "alias" for the function:
+- (Recommended) Create an "alias":
 
 ```powershell
 function run {
